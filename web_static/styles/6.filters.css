@@ -48,7 +48,7 @@
     margin-top: 2px;
 }
 
-.popover{
+.popover {
     display: none;
     position: absolute;
     background-color: #FAFAFA;
@@ -56,16 +56,25 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
-    padding: 1px;
-    margin: 1px;
+    padding: 0;
+    margin: 0;
     z-index: 100;
 }
 
-.locations:hover .popover, .amenities:hover .popover{
+.locations:hover .popover,
+.amenities:hover .popover {
     display: block;
 }
 
 .popover ul {
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.popover ul li {
+    margin: 0;
+    list-style: none;
     list-style-type: none;
 }
 
